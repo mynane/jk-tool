@@ -1,11 +1,11 @@
 {
-  "name": "about",
-  "version": "1.0.9",
+  "name": "tool",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "jkc": {
-    "icon": "icon-prompt",
-    "name": "关于我们"
+    "icon": "icon-filter",
+    "name": "工具集"
   },
   "scripts": {
     "dev": "node ./local-server.js",
