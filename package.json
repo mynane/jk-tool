@@ -1,0 +1,39 @@
+{
+  "name": "about",
+  "version": "1.0.9",
+  "description": "",
+  "main": "index.js",
+  "jkc": {
+    "icon": "icon-prompt",
+    "name": "关于我们"
+  },
+  "scripts": {
+    "dev": "node ./local-server.js",
+    "build": "next build && next export -o build/dist && npm run zip",
+    "zip": "node ./.build/build.js",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-less": "^1.0.1",
+    "cookie": "^0.4.1",
+    "less": "^3.12.2",
+    "mv": "^2.1.1",
+    "next": "^9.5.2",
+    "next-compose-plugins": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-select": "^4.3.0",
+    "react-tooltip": "^4.2.17",
+    "url-parse": "^1.4.7"
+  },
+  "devDependencies": {
+    "@xiaoduo/webpack-plugin-cdn": "^1.1.0",
+    "compressing": "^1.5.1",
+    "express": "^4.17.1",
+    "file-loader": "^6.0.0",
+    "http-proxy-middleware": "^1.0.5",
+    "url-loader": "^4.1.0"
+  }
+}
